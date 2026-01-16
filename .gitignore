@@ -1,0 +1,79 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ================================
+# Virtual Environment
+# ================================
+venv/
+.env/
+.env.*
+
+# ================================
+# PyTorch / ML models
+# ================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.ckpt
+
+# ================================
+# Dataset / Video files
+# ================================
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+data/**/*.mkv
+data/**/*.webm
+
+# Pozwól na jeden przykładowy plik testowy
+!data/short_clips/example.mp4
+
+# ================================
+# PyCharm / JetBrains
+# ================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ================================
+# Logs & experiments
+# ================================
+logs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.swp
+*.bak
+*~
